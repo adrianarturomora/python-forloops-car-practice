@@ -1,0 +1,17 @@
+cars = [
+    {"car": "Toyota", "miles": 123456},
+    {"car": "Honda", "miles": 234657},
+    {"car": "Acura", "miles": 187345},
+    {"car": "BMW", "miles": 78234},
+    {"car": "Mercedes", "miles": 53256},
+    {"car": "Subaru", "miles": 167598},
+    {"car": "Tesla", "miles": 63867},
+    {"car": "Rolls Royce", "miles": 8496},
+
+]
+
+for car in cars:
+    vehicle = car["car"]
+    mileage = car["miles"]
+
+    print(f"The model of the car is {vehicle} and it has {mileage} miles on it.")
